@@ -29,7 +29,7 @@ export class App {
       cors({
         origin: [
           "http://localhost:3000",
-          "https://kickave-jcwdol17-nextjs.vercel.app/",
+          "https://kickave-jcwdol17-nextjs.vercel.app",
         ],
       })
     );
