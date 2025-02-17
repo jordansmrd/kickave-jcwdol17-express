@@ -27,7 +27,10 @@ class App {
         this.app.use(express_1.default.json()); // accessing req.body (json)
         // this.app.use(express.urlencoded());
         this.app.use((0, cors_1.default)({
-            origin: ["http://localhost:3000"],
+            origin: [
+                "http://localhost:3000",
+                "https://kickave-jcwdol17-nextjs.vercel.app/",
+            ],
         }));
     }
     handleError() {
